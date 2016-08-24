@@ -499,12 +499,12 @@ svg:not(:root) {
 }
 
 .footer a, .navbar a {
-  color: #fe7001;
+  color: #ff6699;
   text-decoration:none;
 }
 
 .footer a:hover, .navbar a:hover {
-  color: #fe7001;
+  color: #ff6699;
   text-decoration:underline;
 }
 
@@ -524,7 +524,7 @@ div.lb-menu-category {
 }
 
 a div.lb-menu-category:hover {
-    border: 2px solid #fe7001;
+    border: 2px solid #ff6699;
 }
 
 img.lb-menu-linkicon {
