@@ -12,7 +12,8 @@ module SequenceServer
   	    'Nematoda' => 'All',
   	    'Bicyclus' => 'Lepidoptera',
   	    'Heliconius' => 'Lepidoptera',
-        'Acanthocheilonema' => 'Nematoda'
+        'Acanthocheilonema' => 'Nematoda',
+        'Ascaris' => 'Nematoda'
   	  }
   	  par.default = @root
   	  return par
