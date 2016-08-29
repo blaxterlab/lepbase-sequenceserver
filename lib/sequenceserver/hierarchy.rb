@@ -2,13 +2,15 @@ module SequenceServer
   # Module to contain methods for dealing with taxonomic hierarchy.
   class Hierarchy
 
-  	def initialize (root = 'Root')
+  	def initialize (root = 'All')
     	@root = root
     end
 
   	def parents
       par = {
-        'Bicyclus' => 'Lepidoptera',
+        'Lepidoptera' => 'All',
+  	    'Nematoda' => 'All',
+  	    'Bicyclus' => 'Lepidoptera',
   	    'Heliconius' => 'Lepidoptera',
         'Acanthocheilonema' => 'Nematoda'
   	  }

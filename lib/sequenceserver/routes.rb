@@ -108,20 +108,20 @@ target="#{target}">)
     get '/' do
       @input_sequence = ""
       erb :search, :locals => { :databases => Database.group_by(&:type),
-                                :hierarchy => Hierarchy.new('Lepidoptera') }
+                                :hierarchy => Hierarchy.new('All') }
     end
 
-    
+
     post '/' do
       if params[:input_sequence]
         # populate sequence textarea
         @input_sequence = params[:input_sequence]
         erb :search, :locals => { :databases => Database.group_by(&:type),
-                                :hierarchy => Hierarchy.new('Lepidoptera') }
+                                :hierarchy => Hierarchy.new('All') }
       else
         # BLAST search!
         erb :result, :locals => { :report => BLAST.run(params),
-                                :hierarchy => Hierarchy.new('Lepidoptera') }
+                                :hierarchy => Hierarchy.new('All') }
       end
     end
 
