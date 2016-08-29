@@ -9,7 +9,8 @@ module SequenceServer
   	def parents
       par = {
         'Bicyclus' => 'Lepidoptera',
-  	    'Heliconius' => 'Lepidoptera'
+  	    'Heliconius' => 'Lepidoptera',
+        'Acanthocheilonema' => 'Nematoda'
   	  }
   	  par.default = @root
   	  return par
