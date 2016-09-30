@@ -12,6 +12,7 @@ module SequenceServer
   	    'Nematoda' => 'All',
   	    'Bicyclus' => 'Lepidoptera',
   	    'Heliconius' => 'Lepidoptera',
+        'Lumbricus' => 'Annelida',
         'Acanthocheilonema' => 'Nematoda',
         'Ascaris' => 'Nematoda',
         'Dictyocaulus' => 'Nematoda',
