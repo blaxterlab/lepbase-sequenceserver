@@ -97,6 +97,8 @@ module SequenceServer
       taxa["ascaris_suum_asu2_core_32_85_1"] = "Ascaris_suum_asu2"
       taxa["dictyocaulus_viviparus_ndv1_core_32_85_1"] = "Dictyocaulus_viviparus_ndv1"
       taxa["lumbricus_rubellus_v0x4_core_32_85_1"] = "Lumbricus_rubellus_v0x4"
+      taxa["lymnaea_stagnalis_gls1_core_32_85_1"] = "Lymnaea_stagnalis_gLs1"
+      taxa["lymnaea_stagnalis_gls1_augustus_core_32_85_1"] = "Lymnaea_stagnalis_gLs1_augustus"
       taxa["onchocerca_gutturosa_nog1x1_core_32_85_1"] = "Onchocerca_gutturosa_nog1x1"
       taxa["oscheius_tipulae_not2_core_32_85_1"] = "Oscheius_tipulae_not2"
       taxa["plectus_murrayi_npm2_core_32_85_1"] = "Plectus_murrayi_npm2"
